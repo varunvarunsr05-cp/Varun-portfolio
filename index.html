@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="progress-bar"></div>
+    <header class="navbar">
+        <div class="logo">Varun</div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+    <section class="hero">
+        <p class="typing"></p>
+        <div class="hero-left">
+            <h1>👋 Hi, I’m Varun</h1>
+            <h2>Frontend Developer</h2>
+            <p>I build modern, responsive and user-friendly websites.</p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="blob"></div>
+            <!-- OR use your image -->
+            <img src="images/varunsr.png" width="300px" alt="Varun">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+
+            <div class="about-left">
+                <img src="images/varunsr.png" alt="Varun">
+            </div>
+
+            <div class="about-right">
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate frontend developer who loves creating clean and modern websites.
+                    I focus on building responsive, user-friendly interfaces with great design.
+                    Always learning new technologies and improving my skills.
+                </p>
+
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>GitHub</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-grid">
+
+            <!-- Project Card -->
+            <div class="project-card glass">
+                <img src="images/proj1home.png" alt="Project">
+
+                <h3>Netflix Clone</h3>
+                <p>HTML, CSS</p>
+
+                <div class="project-buttons">
+                    <a href="https://varunvarunsr05-cp.github.io/netflix-clone/
+                    " class="btn">Live</a>
+                    <a href="https://github.com/varunvarunsr05-cp" class="btn outline">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Duplicate for more projects -->
+            <div class="project-card glass">
+                <img src="images/proj2Masics.png" alt="Project">
+
+                <h3>Masics pharma Website</h3>
+                <p>HTML, CSS, JS</p>
+
+                <div class="project-buttons">
+                    <a href="https://masics-a3fa52.webflow.io/#contact" class="btn">Live</a>
+                    <a href="https://github.com/varunvarunsr05-cp" class="btn outline">GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card glass">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                <p>HTML</p>
+            </div>
+
+            <div class="skill-card glass">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                <p>CSS</p>
+            </div>
+
+            <div class="skill-card glass">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="JS">
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill-card glass">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                <p>Git</p>
+            </div>
+
+            <div class="skill-card glass">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                <p>GitHub</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-container">
+
+            <!-- Info -->
+            <div class="contact-info glass">
+                <p>Email: varunvarunsr05@email.com</p>
+                <p>LinkedIn: https://www.linkedin.com/in/varun-s-r-442347327/</p>
+                <p>GitHub: https://github.com/varunvarunsr05-cp</p>
+            </div>
+
+            <!-- Form -->
+            <form class="contact-form glass">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+</body>
+
+</html>
